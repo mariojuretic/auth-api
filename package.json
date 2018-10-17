@@ -1,0 +1,21 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "Authentication API",
+  "main": "server.js",
+  "repository": "https://github.com/mariojuretic/auth-api",
+  "author": "Mario Juretić",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.18.3",
+    "express": "4.16.4",
+    "jsonwebtoken": "8.3.0",
+    "mongoose": "5.3.3",
+    "nodemailer": "4.6.8",
+    "validator": "10.8.0"
+  }
+}
